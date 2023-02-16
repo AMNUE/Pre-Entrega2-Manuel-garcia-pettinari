@@ -1,0 +1,343 @@
+*   {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+/*Header*/
+
+.header {
+    background-color: #262626;
+}
+.navegacion-principal {
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+}
+
+.logo {
+    margin-left: 50px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+   
+    
+}
+
+
+li {
+    float: left;
+}
+
+
+.lista-nav {
+    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 50px;
+    height: 100px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #262626;
+    color: whitesmoke;
+}
+.lista-talles {
+    text-decoration: none;
+    float: none;
+    
+}
+
+li a:hover{
+    background-color: #111111;
+}
+
+/*Main*/
+body {
+    background-color: #797977;
+}
+
+.titulo {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+    font-size: 45px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: whitesmoke;
+    
+}
+
+
+.main {
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.main-pagina-productos {
+    display: flex ;
+    flex-direction: column;
+    margin-left: 30px;
+}
+
+.main-nosotros {
+    margin-left: 50px;
+    margin-bottom: 150px;
+    margin-right: 50px;
+}
+.main-gorra-coral {
+    margin-bottom: 150px;
+}
+
+.titulo-producto {
+    
+    margin-top: 25px;
+    width: 1000px;
+    border-style: groove;
+    border-color: #262626;
+    border-radius: 10px;
+    background: repeating-linear-gradient(
+        -55deg,
+        #262626,
+        #262626 10px,
+        #797977 10px,
+        #797977 20px
+    );
+}
+.section-imagen-talle-gorra-coral {
+    display: flex;
+    flex-direction: row;
+    margin-top: 100px;
+    
+}
+.section-descripcion-gorra-coral {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    margin-left: 100px;
+    margin-right: 800px;
+}
+.imagen-producto-gorra-coral {
+    margin-left: 100px;
+}
+.talle {
+    color: #262626;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 300px;
+    height: 300px;
+    margin-left: 50px;
+    margin-right: 100px;
+    padding-top: 10px;
+    border-radius: 5px;
+    border: #262626;
+    border-style: dotted;
+    
+}
+.talles {
+    list-style-type:disc;
+    
+    padding-left: 50px;
+
+}
+.descripcion-gorra-coral {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 10px;
+    border-color: #262626;
+    border-style: dotted;
+    border-radius: 10px;
+}
+.descripcion-nosotros {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-color: #262626;
+    border-style: dotted;
+    border-radius: 10px;
+}
+.nombre-index {
+    padding-left: 5px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: whitesmoke;
+}
+
+
+.contenedor-1 {
+    
+    margin-bottom: 150px;
+    
+}
+
+.center {
+    display: block;
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+    width:100%;
+    border-radius: 20px;
+    border-color: #262626;
+    border-style: groove;
+    
+}
+.item {
+    margin-left: 50px;
+}
+.item-2 {
+    margin-bottom: 150px;
+    margin-top: 100px;
+    margin-right: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#carouselExampleFade {
+    border-radius: 5px;
+    border-style: groove;
+    border-color: #262626;
+}
+.carousel-control-prev {
+    background-color:#797977;
+}
+.carousel-control-prev button:hover {
+    background-color: #797977;
+}
+.carousel-control-next {
+    background-color: #797977;
+}
+
+.carousel-control-next button:hover { 
+    background-color: #797977;
+}
+.productos {
+    
+    margin-bottom: 20px;
+}
+.productos-remera {
+    margin-bottom: 150px;
+}
+.imagen-productos {
+    display: block; 
+    border-radius: 20px;
+    border-color: #262626;
+    border-style: groove;
+}
+.contacto {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.seleccion-talle {
+    margin-bottom: 40px;
+    text-align: center;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: whitesmoke;
+}
+.lista-talles {
+    margin-bottom: 25px;
+}
+.nombre-productos {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: whitesmoke;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+.form-contacto {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: whitesmoke;
+}
+.nombre-contacto {
+    margin-bottom: 30px;
+    border-style: groove;
+    border-radius: 5px;
+    border-color: #262626;
+    width: 300px;
+}
+.motivo-contacto {
+    margin-bottom: 30px;
+    border-style: groove;
+    border-radius: 5px;
+    border-color: #262626;
+    width: 300px;
+    height: 150px;
+}
+.button-contacto {
+    margin-bottom: 120px;
+    border-style: groove;
+    border-radius: 5px;
+    border-color: #262626;
+}
+
+.nosotros-1 {
+    display: flex;
+    flex-direction: row;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.nosotros-2 {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+
+}
+.texto-nosotros {
+    text-align: justify;
+}
+.imagen-nosotros-oficinas {
+    margin-left: 25px;
+}
+.imagen-nosotros-fabrica {
+    margin-right: 25px;
+}
+/*Footer*/
+
+.footer {
+    height: 300px;
+    background-color: #262626;
+}
+
+footer a {
+    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    padding: 50px;
+    text-decoration: none;
+    height: 100px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: whitesmoke;
+}
+.texto-footer {
+    text-align: center;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: whitesmoke;
+}
+
+.main-pagina-productos-grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 100px;
+}
+
+

@@ -170,6 +170,7 @@ body {
     border-radius: 10px;
 }
 .nombre-index {
+    margin-top: 5px;
     padding-left: 5px;
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
@@ -204,6 +205,10 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: whitesmoke;
 }
 #carouselExampleFade {
     border-radius: 5px;
@@ -338,6 +343,74 @@ footer a {
     display: grid;
     grid-template-columns: 1fr 1fr;
     column-gap: 100px;
+}
+
+/* @media querries*/
+
+@media (max-width:600px) and (min-width:480px) {
+    .titulo-producto {
+        margin-top: 25px;
+        width: 480px;
+        border-style: groove;
+        border-color: #262626;
+        border-radius: 10px;
+        background: repeating-linear-gradient(
+            -55deg,
+            #262626,
+            #262626 10px,
+            #797977 10px,
+            #797977 20px
+        );
+    }
+}
+
+@media (min-width:600px) and (max-width:800px) {
+    .titulo-producto {
+        margin-top: 25px;
+        width: 600px;
+        border-style: groove;
+        border-color: #262626;
+        border-radius: 10px;
+        background: repeating-linear-gradient(
+            -55deg,
+            #262626,
+            #262626 10px,
+            #797977 10px,
+            #797977 20px
+        );
+    }
+}
+@media (min-width:800px) and (max-width:1000px) {
+    .titulo-producto {
+        margin-top: 25px;
+        width: 800px;
+        border-style: groove;
+        border-color: #262626;
+        border-radius: 10px;
+        background: repeating-linear-gradient(
+            -55deg,
+            #262626,
+            #262626 10px,
+            #797977 10px,
+            #797977 20px
+        );
+    }
+}
+@media (min-width:1000px) {
+    .titulo-producto {
+        margin-top: 25px;
+        width: 1000px;
+        border-style: groove;
+        border-color: #262626;
+        border-radius: 10px;
+        background: repeating-linear-gradient(
+            -55deg,
+            #262626,
+            #262626 10px,
+            #797977 10px,
+            #797977 20px
+        );
+    }
 }
 
 

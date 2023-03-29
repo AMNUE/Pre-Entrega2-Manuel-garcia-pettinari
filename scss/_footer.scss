@@ -1,0 +1,28 @@
+/*Footer*/
+.footer {
+    height: 300px;
+    background-color: $color-secundario;
+    .texto-footer {
+        text-align: center;
+        font-size: 15px;
+        font-family: $font-family;
+        color: $color-letras;
+        footer a {
+            display: block;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: $color-letras;
+            text-align: center;
+            padding: 50px;
+            text-decoration: none;
+            height: 100px;
+            font-size: $logo;
+            font-family:$font-family;
+            color: $color-letras;
+           
+        }
+    }
+}
+
+
